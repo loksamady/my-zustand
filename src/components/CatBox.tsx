@@ -8,7 +8,7 @@ const CatBox = () => {
   } = useCatStore();
   console.log(summary());
   return (
-    <div className="flex justify-center items-center flex-col gap-5 ">
+    <div className="flex justify-center items-center flex-col border p-11 gap-5 ">
       <h1>Cat Box</h1>
       <p>BigCat:{bigCats}</p>
       <p>SmallCat:{smallCats}</p>
